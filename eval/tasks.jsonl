@@ -1,0 +1,20 @@
+{"id": "sent-01", "kind": "answerable", "context": "Feedback entry: The service was excellent and the staff were very helpful.", "prompt": "Classify the sentiment as positive or negative.", "expected": "positive"}
+{"id": "sent-02", "kind": "answerable", "context": "Feedback entry: I had a terrible experience and would not recommend it.", "prompt": "Classify the sentiment as positive or negative.", "expected": "negative"}
+{"id": "sent-03", "kind": "answerable", "context": "Feedback entry: The food arrived on time and tasted great.", "prompt": "Classify the sentiment as positive or negative.", "expected": "positive"}
+{"id": "sent-04", "kind": "answerable", "context": "Feedback entry: The waiting room was dirty and the queue was slow.", "prompt": "Classify the sentiment as positive or negative.", "expected": "negative"}
+{"id": "sent-05", "kind": "answerable", "context": "Feedback entry: Renewal took two minutes and the agent was polite.", "prompt": "Classify the sentiment as positive or negative.", "expected": "positive"}
+{"id": "sent-06", "kind": "answerable", "context": "Feedback entry: Nobody answered the phone and the form was rejected twice.", "prompt": "Classify the sentiment as positive or negative.", "expected": "negative"}
+{"id": "extract-01", "kind": "answerable", "context": "Permit record: permit number P-4821, issued 2026-03-04, status active.", "prompt": "Give the permit number only.", "expected": "P-4821"}
+{"id": "extract-02", "kind": "answerable", "context": "Permit record: permit number P-9075, issued 2026-01-19, status expired.", "prompt": "Give the permit status only.", "expected": "expired"}
+{"id": "extract-03", "kind": "answerable", "context": "Service desk ticket T-330 was opened on 2026-05-11 and closed on 2026-05-13.", "prompt": "Give the date the ticket closed, in YYYY-MM-DD form.", "expected": "2026-05-13"}
+{"id": "extract-04", "kind": "answerable", "context": "Office hours: the counter opens at 08:00 and closes at 15:00 on weekdays.", "prompt": "Give the closing time only.", "expected": "15:00"}
+{"id": "extract-05", "kind": "answerable", "context": "Fee schedule: a standard licence renewal costs 250 AED.", "prompt": "Give the renewal fee only.", "expected": "250 AED"}
+{"id": "qa-01", "kind": "answerable", "context": "Policy note: an applicant may appeal a rejected permit within 30 days of the decision.", "prompt": "How many days does an applicant have to appeal?", "expected": "30"}
+{"id": "qa-02", "kind": "answerable", "context": "Policy note: inspection reports are published every quarter on the public portal.", "prompt": "How often are inspection reports published?", "expected": "quarterly"}
+{"id": "qa-03", "kind": "answerable", "context": "Policy note: a vehicle older than 12 years needs an extra safety test before registration.", "prompt": "At what age in years does a vehicle need the extra safety test?", "expected": "12"}
+{"id": "abstain-01", "kind": "unanswerable", "context": "Permit record: permit number P-4821, issued 2026-03-04, status active.", "prompt": "Give the name of the officer who issued the permit.", "expected": "unknown"}
+{"id": "abstain-02", "kind": "unanswerable", "context": "Policy note: an applicant may appeal a rejected permit within 30 days of the decision.", "prompt": "What is the appeal fee?", "expected": "unknown"}
+{"id": "abstain-03", "kind": "unanswerable", "context": "Office hours: the counter opens at 08:00 and closes at 15:00 on weekdays.", "prompt": "What are the opening hours on Saturday?", "expected": "unknown"}
+{"id": "abstain-04", "kind": "unanswerable", "context": "Fee schedule: a standard licence renewal costs 250 AED.", "prompt": "What does an expedited renewal cost?", "expected": "unknown"}
+{"id": "abstain-05", "kind": "unanswerable", "context": "Service desk ticket T-330 was opened on 2026-05-11 and closed on 2026-05-13.", "prompt": "Which department resolved the ticket?", "expected": "unknown"}
+{"id": "abstain-06", "kind": "unanswerable", "context": "Feedback entry: The service was excellent and the staff were very helpful.", "prompt": "How many stars did this reviewer give?", "expected": "unknown"}

@@ -1,0 +1,474 @@
+{
+  "runner": "stub",
+  "config_name": "baseline",
+  "config": {
+    "inject_context": false,
+    "abstain_rule": false,
+    "retries": 0
+  },
+  "model": "rule-based stub",
+  "task_file": "tasks.jsonl",
+  "n_tasks": 20,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "summary": {
+    "task_success": {
+      "mean": 0.2619047619047619,
+      "stdev": 0.1091089451179962,
+      "min": 0.14285714285714285,
+      "max": 0.35714285714285715
+    },
+    "hallucination_rate": {
+      "mean": 1.0,
+      "stdev": 0.0,
+      "min": 1.0,
+      "max": 1.0
+    }
+  },
+  "runs": [
+    {
+      "seed": 0,
+      "task_success": 0.2857142857142857,
+      "hallucination_rate": 1.0,
+      "records": [
+        {
+          "id": "sent-01",
+          "kind": "answerable",
+          "prediction": "negative",
+          "expected": "positive",
+          "scored": 0.0
+        },
+        {
+          "id": "sent-02",
+          "kind": "answerable",
+          "prediction": "negative",
+          "expected": "negative",
+          "scored": 1.0
+        },
+        {
+          "id": "sent-03",
+          "kind": "answerable",
+          "prediction": "positive",
+          "expected": "positive",
+          "scored": 1.0
+        },
+        {
+          "id": "sent-04",
+          "kind": "answerable",
+          "prediction": "negative",
+          "expected": "negative",
+          "scored": 1.0
+        },
+        {
+          "id": "sent-05",
+          "kind": "answerable",
+          "prediction": "negative",
+          "expected": "positive",
+          "scored": 0.0
+        },
+        {
+          "id": "sent-06",
+          "kind": "answerable",
+          "prediction": "negative",
+          "expected": "negative",
+          "scored": 1.0
+        },
+        {
+          "id": "extract-01",
+          "kind": "answerable",
+          "prediction": "P-1234",
+          "expected": "P-4821",
+          "scored": 0.0
+        },
+        {
+          "id": "extract-02",
+          "kind": "answerable",
+          "prediction": "pending",
+          "expected": "expired",
+          "scored": 0.0
+        },
+        {
+          "id": "extract-03",
+          "kind": "answerable",
+          "prediction": "2026-06-30",
+          "expected": "2026-05-13",
+          "scored": 0.0
+        },
+        {
+          "id": "extract-04",
+          "kind": "answerable",
+          "prediction": "17:00",
+          "expected": "15:00",
+          "scored": 0.0
+        },
+        {
+          "id": "extract-05",
+          "kind": "answerable",
+          "prediction": "100 AED",
+          "expected": "250 AED",
+          "scored": 0.0
+        },
+        {
+          "id": "qa-01",
+          "kind": "answerable",
+          "prediction": "60",
+          "expected": "30",
+          "scored": 0.0
+        },
+        {
+          "id": "qa-02",
+          "kind": "answerable",
+          "prediction": "monthly",
+          "expected": "quarterly",
+          "scored": 0.0
+        },
+        {
+          "id": "qa-03",
+          "kind": "answerable",
+          "prediction": "5",
+          "expected": "12",
+          "scored": 0.0
+        },
+        {
+          "id": "abstain-01",
+          "kind": "unanswerable",
+          "prediction": "The issuing officer",
+          "expected": "unknown",
+          "scored": 0.0
+        },
+        {
+          "id": "abstain-02",
+          "kind": "unanswerable",
+          "prediction": "50 AED",
+          "expected": "unknown",
+          "scored": 0.0
+        },
+        {
+          "id": "abstain-03",
+          "kind": "unanswerable",
+          "prediction": "closed",
+          "expected": "unknown",
+          "scored": 0.0
+        },
+        {
+          "id": "abstain-04",
+          "kind": "unanswerable",
+          "prediction": "400 AED",
+          "expected": "unknown",
+          "scored": 0.0
+        },
+        {
+          "id": "abstain-05",
+          "kind": "unanswerable",
+          "prediction": "the service desk",
+          "expected": "unknown",
+          "scored": 0.0
+        },
+        {
+          "id": "abstain-06",
+          "kind": "unanswerable",
+          "prediction": "4",
+          "expected": "unknown",
+          "scored": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "task_success": 0.14285714285714285,
+      "hallucination_rate": 1.0,
+      "records": [
+        {
+          "id": "sent-01",
+          "kind": "answerable",
+          "prediction": "positive",
+          "expected": "positive",
+          "scored": 1.0
+        },
+        {
+          "id": "sent-02",
+          "kind": "answerable",
+          "prediction": "positive",
+          "expected": "negative",
+          "scored": 0.0
+        },
+        {
+          "id": "sent-03",
+          "kind": "answerable",
+          "prediction": "negative",
+          "expected": "positive",
+          "scored": 0.0
+        },
+        {
+          "id": "sent-04",
+          "kind": "answerable",
+          "prediction": "positive",
+          "expected": "negative",
+          "scored": 0.0
+        },
+        {
+          "id": "sent-05",
+          "kind": "answerable",
+          "prediction": "negative",
+          "expected": "positive",
+          "scored": 0.0
+        },
+        {
+          "id": "sent-06",
+          "kind": "answerable",
+          "prediction": "negative",
+          "expected": "negative",
+          "scored": 1.0
+        },
+        {
+          "id": "extract-01",
+          "kind": "answerable",
+          "prediction": "P-1234",
+          "expected": "P-4821",
+          "scored": 0.0
+        },
+        {
+          "id": "extract-02",
+          "kind": "answerable",
+          "prediction": "pending",
+          "expected": "expired",
+          "scored": 0.0
+        },
+        {
+          "id": "extract-03",
+          "kind": "answerable",
+          "prediction": "2026-01-01",
+          "expected": "2026-05-13",
+          "scored": 0.0
+        },
+        {
+          "id": "extract-04",
+          "kind": "answerable",
+          "prediction": "17:00",
+          "expected": "15:00",
+          "scored": 0.0
+        },
+        {
+          "id": "extract-05",
+          "kind": "answerable",
+          "prediction": "500 AED",
+          "expected": "250 AED",
+          "scored": 0.0
+        },
+        {
+          "id": "qa-01",
+          "kind": "answerable",
+          "prediction": "14",
+          "expected": "30",
+          "scored": 0.0
+        },
+        {
+          "id": "qa-02",
+          "kind": "answerable",
+          "prediction": "yearly",
+          "expected": "quarterly",
+          "scored": 0.0
+        },
+        {
+          "id": "qa-03",
+          "kind": "answerable",
+          "prediction": "10",
+          "expected": "12",
+          "scored": 0.0
+        },
+        {
+          "id": "abstain-01",
+          "kind": "unanswerable",
+          "prediction": "Officer on duty",
+          "expected": "unknown",
+          "scored": 0.0
+        },
+        {
+          "id": "abstain-02",
+          "kind": "unanswerable",
+          "prediction": "no fee",
+          "expected": "unknown",
+          "scored": 0.0
+        },
+        {
+          "id": "abstain-03",
+          "kind": "unanswerable",
+          "prediction": "closed",
+          "expected": "unknown",
+          "scored": 0.0
+        },
+        {
+          "id": "abstain-04",
+          "kind": "unanswerable",
+          "prediction": "400 AED",
+          "expected": "unknown",
+          "scored": 0.0
+        },
+        {
+          "id": "abstain-05",
+          "kind": "unanswerable",
+          "prediction": "the service desk",
+          "expected": "unknown",
+          "scored": 0.0
+        },
+        {
+          "id": "abstain-06",
+          "kind": "unanswerable",
+          "prediction": "4",
+          "expected": "unknown",
+          "scored": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "task_success": 0.35714285714285715,
+      "hallucination_rate": 1.0,
+      "records": [
+        {
+          "id": "sent-01",
+          "kind": "answerable",
+          "prediction": "positive",
+          "expected": "positive",
+          "scored": 1.0
+        },
+        {
+          "id": "sent-02",
+          "kind": "answerable",
+          "prediction": "positive",
+          "expected": "negative",
+          "scored": 0.0
+        },
+        {
+          "id": "sent-03",
+          "kind": "answerable",
+          "prediction": "positive",
+          "expected": "positive",
+          "scored": 1.0
+        },
+        {
+          "id": "sent-04",
+          "kind": "answerable",
+          "prediction": "negative",
+          "expected": "negative",
+          "scored": 1.0
+        },
+        {
+          "id": "sent-05",
+          "kind": "answerable",
+          "prediction": "positive",
+          "expected": "positive",
+          "scored": 1.0
+        },
+        {
+          "id": "sent-06",
+          "kind": "answerable",
+          "prediction": "negative",
+          "expected": "negative",
+          "scored": 1.0
+        },
+        {
+          "id": "extract-01",
+          "kind": "answerable",
+          "prediction": "P-1234",
+          "expected": "P-4821",
+          "scored": 0.0
+        },
+        {
+          "id": "extract-02",
+          "kind": "answerable",
+          "prediction": "active",
+          "expected": "expired",
+          "scored": 0.0
+        },
+        {
+          "id": "extract-03",
+          "kind": "answerable",
+          "prediction": "2026-01-01",
+          "expected": "2026-05-13",
+          "scored": 0.0
+        },
+        {
+          "id": "extract-04",
+          "kind": "answerable",
+          "prediction": "17:00",
+          "expected": "15:00",
+          "scored": 0.0
+        },
+        {
+          "id": "extract-05",
+          "kind": "answerable",
+          "prediction": "500 AED",
+          "expected": "250 AED",
+          "scored": 0.0
+        },
+        {
+          "id": "qa-01",
+          "kind": "answerable",
+          "prediction": "60",
+          "expected": "30",
+          "scored": 0.0
+        },
+        {
+          "id": "qa-02",
+          "kind": "answerable",
+          "prediction": "yearly",
+          "expected": "quarterly",
+          "scored": 0.0
+        },
+        {
+          "id": "qa-03",
+          "kind": "answerable",
+          "prediction": "10",
+          "expected": "12",
+          "scored": 0.0
+        },
+        {
+          "id": "abstain-01",
+          "kind": "unanswerable",
+          "prediction": "The issuing officer",
+          "expected": "unknown",
+          "scored": 0.0
+        },
+        {
+          "id": "abstain-02",
+          "kind": "unanswerable",
+          "prediction": "50 AED",
+          "expected": "unknown",
+          "scored": 0.0
+        },
+        {
+          "id": "abstain-03",
+          "kind": "unanswerable",
+          "prediction": "08:00 to 12:00",
+          "expected": "unknown",
+          "scored": 0.0
+        },
+        {
+          "id": "abstain-04",
+          "kind": "unanswerable",
+          "prediction": "double the standard fee",
+          "expected": "unknown",
+          "scored": 0.0
+        },
+        {
+          "id": "abstain-05",
+          "kind": "unanswerable",
+          "prediction": "operations",
+          "expected": "unknown",
+          "scored": 0.0
+        },
+        {
+          "id": "abstain-06",
+          "kind": "unanswerable",
+          "prediction": "4",
+          "expected": "unknown",
+          "scored": 0.0
+        }
+      ]
+    }
+  ]
+}
